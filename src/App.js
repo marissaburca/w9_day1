@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonComponent from './components/My.button';
+import ImageContent from './components/MyImage';
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
         >
           Learn React
         </a>
+      
+        <ButtonComponent ButtonContent ='Hello!'/>
+        <ImageContent NewAddress ='https://picsum.photos/200' NewAlt='random'/>
+    
       </header>
     </div>
   );
